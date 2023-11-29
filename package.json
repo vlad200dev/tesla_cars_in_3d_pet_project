@@ -11,8 +11,9 @@
     "use-cannon": "^0.5.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "CI= react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build_github": "CI= react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
