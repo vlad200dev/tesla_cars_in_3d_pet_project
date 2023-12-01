@@ -3,18 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-scripts": "4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "react-three-fiber": "5.1.5",
     "three": "0.122.0",
     "use-cannon": "^0.5.3"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build_github": "CI= react-scripts build",
-    "build_netlify": "NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
-    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

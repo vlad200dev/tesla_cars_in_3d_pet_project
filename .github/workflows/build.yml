@@ -12,5 +12,5 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build the project
-        run: npm run build_github
+        run: npm run build
 
